@@ -63,7 +63,7 @@
 
                 <a class='d-flex justify-content-center pt-2' href="{{route('download.arquivo', $atividade )}}">
                     <span onclick="$('#form-download-{{ $atividade->arquivo }}').submit()" class="btn btn-primary btn-lg">
-                        <i> Baixar </i>
+                        Baixar
                     </span>
                 </a>
 
